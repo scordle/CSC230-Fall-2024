@@ -1,6 +1,6 @@
 /***************************************
- Name: Scott Cordle
- Date: 12/09/2024
+ Author:	Scott Cordle
+ Date:		12/09/2024
  
  Description: Stylesheet for index.htm
  Resources: 
@@ -13,7 +13,6 @@ body {
 	margin-top: 0px;
 	font-family: Verdana, Helvitica, sans-serif;
 	font-size: 16pt;
-	
 }
 
 h1 {

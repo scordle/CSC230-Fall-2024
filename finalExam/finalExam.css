@@ -7,29 +7,69 @@
 ***************************************/
 
 body {
-	background-color: #000000;
-	width: 1080px;
+	font-family: Verdana, Helvitica, sans-serif;
+	color: #000000;
+	font-size: 16pt;
+	width: 85%;
+	background-color: #123456;
 	margin: auto;
 	margin-top: 0px;
-	font-family: Verdana, Helvitica, sans-serif;
-	font-size: 16pt;
+}
+
+header {
+	background-color: #E6E6DC;
+	text-align: center;
+	padding: 15px 0px;
+	color: #E6E6DC;
+	padding: 15px;
+}
+
+header h1 {
+	font-size: 36pt;
+	margin: 35px 0px 0px 0px;
+	padding: 15px 0px 0px 15px;
+	background-color: #E6E6DC;
+}
+
+header h3 {
+	font-size: 24pt;
+	margin: 0px;
+	padding: 0px 0px 15px 15px;
+	background-color: #E6E6DC;
+}
+
+header p {
+	float: right;
+	clear: both; 
+}
+
+header img {
+	text-align: right;
+	width: 300px;
+	height: 300px;
 }
 
 h1 {
 	font-family: Arial;
-	font-size: 36pt;
+	font-size: 22pt;
 	text-align: left;
 	letter-spacing: 2px;
+	margin: 0px;
+	padding: 15px 0px 0px 15px;
 	color: black;
 }
 
 h3 {
 	font-family: Arial;
-	font-size: 22pt;
+	font-size: 16pt;
 	text-align: left;
-	color: black;
+	color: #123456;
 }
 
+p {
+	margin: 15px;
+	padding: 15px;
+}
 a:link  {
 	color: #00628B;
 	text-decoration: none;
@@ -42,27 +82,15 @@ a:active {
 }
 	
 a:hover {
-	color: #81A594;
+	color: #cc19d8;
 	text-decoration: underline;
 }
 
 table {
-	border: single;
+	border: none;
 	padding: 2px 5px 2px 5px;
-}
-
-header {
-	background-color: #00628B;
-	text-align: center;
-	padding: 15px 0px;
-	color: #E6E6DC;
-	padding: 15px;
-}
-
-header p {
-	/*text-align: right; */
-	float: right;
-	clear: both; 
+	width: 90%;
+	margin-left: 30px;
 }
 
 nav {
@@ -86,7 +114,6 @@ nav {
 #section h1, h2 {
 	color: #00628B;
 }
-
 
 footer {
 	background-color: #81A594;

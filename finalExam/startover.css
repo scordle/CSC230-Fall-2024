@@ -29,6 +29,19 @@ header h3 {
 	background-color: #f5f5dc;
 }
 
+header img {
+	clear: both;
+	display: block;
+	float: right; 
+	max-width: 200px;
+	max-height: 200px;
+	object-fit: contain;
+}
+
+/* header p {
+	text-align: right;
+} */
+
 h1 {
 	font-family: Arial;
 	font-size: 22pt;
@@ -75,19 +88,31 @@ table {
 }
 
 header {
-
+	width: 100%;
+	height: 200px;
+	overflow:visible;
+	display: block;
+	clear: both;
 }
 
 nav {
-
+	background-color: #52d3f7;
+	color: black;
+	text-align: center;
+	height: 500px;
+	width: 25%;
+	float:left;
+	clear: both;
 }
 
 section {
-
+	background-color: #de92bd;
+	color: black;
 }
 
 footer {
-
+	background-color: #431594;
+	color: black;
 }
 
 

@@ -6,3 +6,88 @@
  Resources: 	startover.html
 ***************************************/
 
+body {
+	font-family: sans-serif;
+	color: black;
+	font-size: 16pt;
+	width: 85%;
+	margin: auto;
+	background-color:#1b2ab2;
+}
+
+header h1 {
+	font-size: 36pt;
+	margin: 35px 0px 0px 0px;
+	padding: 15px 0px 15px 0px;
+	background-color: #f5f5dc;
+}
+
+header h3 {
+	font-size: 24pt;
+	margin: 0px;
+	padding: 0px 0px 15px 15px;
+	background-color: #f5f5dc;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 22pt;
+	text-align: left;
+	letter-spacing: 2px;
+	margin: 0px;
+	background-color: #ffe819;
+}
+
+h3 {
+	font-family: Arial;
+	font-size: 16pt; 
+	text-align: left;
+	background-color: #1b2ab2;
+}
+
+p {
+	margin: 15px;
+	padding: 15px;
+}
+
+a:link  {
+	color: #431594;
+	text-decoration: none;
+}
+
+a:visited   {text-decoration: none}
+
+a:active {
+	color: #431594;
+	text-decoration: none;
+}
+	
+a:hover {
+	color: #de92bd;
+	text-decoration: underline;
+}
+
+table {
+	border: none;
+	padding: 2px 5px 2px 5px;
+	width: 90%;
+	margin-left: 30px;
+}
+
+header {
+
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+footer {
+
+}
+
+
